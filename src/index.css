@@ -1,13 +1,122 @@
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar-brand {
+  background-color: black !important;
+  color: white;
+
+}
+.navbar {
+  background-color: black !important;
+  width: 101.2% !important;
+  
+}
+.nav-link {
+  color: white !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+  margin-right: 20px !important;
+}
+
+.smallimg{
+  height: 200px;
+  width:100% !important;
+  border-radius: 5px !important;
+}
+
+h1,b{
+  font-size: 20px !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+
+.btn{
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+.bigimg{
+  height: 400px;
+  width:100% !important;
+  border-radius: 5px !important;
+}
+
+input,select,.ant-picker{
+  box-shadow: none !important;
+  margin-right: 10px !important;
+  margin-top: 10px ;
+  border:2px solid black !important;
+  border-radius: 3px !important;
+  height: 35px !important;
+}
+
+h2{
+  font-size: 30px !important;
+  padding: 10px !important;
+  font-family: cursive !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+.dropdown-toggle{
+  background-color: black !important;
+  color: white !important;
+  border: none !important;
+}
+
+.ant-picker-input > input{
+  border: none !important;
+  border-radius:3px !important; ;
+  height: 35px !important;
+}
+
+p{
+  font-size:20px !important;
+}
+.landing{
+  background-color: black !important;
+  color: white !important;
+  height: 91.4vh !important;
+  width: 102.35% !important;
+  border: none !important;
+  padding-top: 100px !important;
+}
+
+h3{
+  font-size: 150px !important;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.landingbtn{
+  background-color: white!important;
+  color: black !important;
+  border: none !important;
+  margin-top: 20px !important;
+}
+
+.col-md-9{
+  margin-right: 5px solid white !important;
 }
